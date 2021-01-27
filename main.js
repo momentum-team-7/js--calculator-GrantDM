@@ -3,13 +3,13 @@
 //     key.addEventListener('click',event => {console.log(event.target)})
 // }
 function dis(val) {
-    document.getElementById('edu').value+=val
+    document.getElementById('calc').value+=val
 }
 function solve() {
-    let x = document.getElementById('edu').value
+    let x = document.getElementById('calc').value
     let y = eval(x)
-    document.getElementById('edu').value = y
+    document.getElementById('calc').value = y
 }
 function clr() {
-document.getElementById("edu").value = ""
+document.getElementById("calc").value = ""
 }
